@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    color: var(--font-color-primary);
+    --bg-primary: #303030;
+    --bg-secondary: #4A4A4A;
+    --font-color-primary: #fff;
+    --font-color-secondary: #B4B4BD;
+    --font-color-tertiary: #313131;
+    --btn-color-primary: #62C5FF;
+    --btn-color-hover: #5283A4;
+}

@@ -1,0 +1,21 @@
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--bg-secondary);
+  margin-bottom: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--font-color-primary);
+}
+
+header .nav-link {
+  transition: all ease 0.3s;
+}
+
+header .nav-link:hover {
+  color: var(--font-color-secondary);
+}
