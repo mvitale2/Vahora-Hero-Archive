@@ -8,12 +8,20 @@ function Card(props) {
     <div className="hero-card">
       <div className="card-title">
         <h3>{props.name}</h3>
-        <i>{props.archetype} of {props.party}</i>
+        <i>
+          {props.archetype} of {props.party}
+        </i>
       </div>
       <div className="hero-img">
-        <img src={props.image} alt={props.name}/>
+        <img
+          src={props.image}
+          alt={props.name + " by " + props.artist}
+          title={props.name + " by " + props.artist}
+        />
       </div>
       <div className="hero-desc">
+        <h5>Description</h5>
+        <hr />
         {props.description}
       </div>
     </div>

@@ -4,7 +4,6 @@ header {
   justify-content: space-around;
   align-items: center;
   background-color: var(--bg-secondary);
-  margin-bottom: 20px;
 }
 
 header a {

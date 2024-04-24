@@ -1,28 +1,94 @@
 .home-wrapper {
-    width: 100vw;
-    height: 100%;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home-wrapper .hero-preview {
+  background-color: var(--font-color-secondary);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+}
+
+.home-wrapper .hero-preview h2 {
+  color: var(--font-color-tertiary);
+}
+
+.home-wrapper .hero-preview .heroes-wrapper {
+  display: flex;
+}
+
+.home-wrapper .banner {
+  height: 60vh;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home-wrapper .banner .banner-img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  opacity: 0.3;
+}
+
+.home-wrapper .banner .cta {
+  width: 30%;
+  font-size: 48px;
+  position: relative;
+}
+
+.home-wrapper .banner a .cta-btn {
+  position: relative;
+}
+
+.home-wrapper .intro {
+  width: 90%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.home-wrapper .intro .top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home-wrapper .intro .intro-text {
+  width: 30%;
+}
+
+.home-wrapper .intro h2 {
+  font-size: 48px;
+}
+
+.home-wrapper .story {
+    width: 90%;
+    height: 350px;
     display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.home-wrapper .hero-preview {
-    background-color: var(--font-color-secondary);
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: auto;
+.home-wrapper .story h2 {
+  font-size: 48px;
 }
 
-.home-wrapper .hero-preview h2 {
-    color: var(--font-color-tertiary)
-}
-
-.home-wrapper .hero-preview .heroes-wrapper {
-    display: flex;
+.home-wrapper .story span {
+    width: 30%;
 }
