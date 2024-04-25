@@ -9,7 +9,7 @@ function Card(props) {
       <div className="card-title">
         <h3>{props.name}</h3>
         <i>
-          {props.archetype} of {props.party}
+          {props.archetype} {props.party === "Hell's Horizon" ? "on" : "of"} {props.party}
         </i>
       </div>
       <div className="hero-img">

@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { BiLogoDiscord } from "react-icons/bi";
 import "./Footer.css";
 
 function Footer() {
@@ -18,10 +17,11 @@ function Footer() {
         </Link>
       </nav>
       <span>
-        Created by<br/>
+        Created by {" "}
+        {/* <br/>
         <span className="icon">
           <BiLogoDiscord />{" "}
-        </span>
+        </span> */}
         skel101
       </span>
     </footer>

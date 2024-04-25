@@ -61,7 +61,7 @@ const heroData = [
     id: 4,
     name: "Rath",
     archetype: "Monk",
-    party: "Ash Knights",
+    party: "Hell's Horizon",
     image: Rath,
     description:
       "Rath is a brutal dragonborn whose scales are made of steel. He practices the unique monastic tradition known as the Steel Vengeance.",
@@ -81,7 +81,7 @@ const heroData = [
   id: 6,
   name: "Rolio",
   archetype: "Bard",
-  party: "island people",
+  party: "Derelict",
   image: Rolio,
   description: "epic robot bard",
   artist: "skel101",
