@@ -6,8 +6,12 @@ import Ron from "./assets/heroes/ron.png";
 import Chard from "./assets/heroes/chardalyn.png";
 import Rath from "./assets/heroes/rath.png";
 import Nalu from "./assets/heroes/nalu.png";
+import Rolio from "./assets/heroes/Rolio.png";
 
 /*
+
+image import template:
+import [name] from "./assets/heroes/[image]"
 
 new hero template:
 {
@@ -73,6 +77,15 @@ const heroData = [
       "Nalu is a water elemental who assumes the form of a humanoid girl. She used to be a human, but was turned into an elemental when her home island was consumed in a tsunami.",
     artist: "itsconnell",
   },
+  {
+  id: 6,
+  name: "Rolio",
+  archetype: "Bard",
+  party: "island people",
+  image: Rolio,
+  description: "epic robot bard",
+  artist: "skel101",
+},
 ];
 
 export default heroData;
