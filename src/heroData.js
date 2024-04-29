@@ -1,4 +1,4 @@
-// This is the datastructure that Card.js uses to generate the HTML necessary to display the data that's present here.
+// This is the data structure that Card.js uses to generate the HTML necessary to display the data that's present here.
 // In order to modify any data that's present on a hero card anywhere on the website, the data needs to be modified here.
 
 import Mekial from "./assets/heroes/Mekial.JPG";

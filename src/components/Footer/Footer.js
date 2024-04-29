@@ -1,4 +1,5 @@
 import React from "react";
+// import BiLogoDiscord from "react-icons";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 

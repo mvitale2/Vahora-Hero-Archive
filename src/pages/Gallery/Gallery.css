@@ -1,6 +1,7 @@
 .gallery-wrapper {
     display: flex;
     width: 100vw;
+    margin-top: 20px;
 }
 
 .gallery-wrapper .heroes {

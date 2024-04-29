@@ -1,3 +1,5 @@
+/* cool blog post about box-shadow https://www.joshwcomeau.com/css/designing-shadows/ */
+
 .hero-card {
   margin: 10px;
   padding: 20px;
@@ -10,6 +12,13 @@
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+  transition: all ease 0.3s;
+}
+
+.hero-card:hover {
+  box-shadow: 0 0 6px 6px var(--font-color-secondary);
+  cursor: pointer;
+  z-index: 1;
 }
 
 .hero-card .card-title {
@@ -36,6 +45,10 @@
   width: 440px;
   height: 110px;
   overflow: hidden;
+}
+
+.hero-card .hero-desc:hover {
+  cursor: text;
 }
 
 .hero-card .hero-desc .bold {
