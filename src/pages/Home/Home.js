@@ -6,10 +6,18 @@ import heroData from "../../heroData.js";
 import VahoraMap from "../../assets/VahoraBig.jpg";
 
 function Home() {
-  //the .map() function creates a new array from an already existing array
-  const heroes = heroData.map((hero) => {
-    //change '< 4' to be a range of random numbers, still maintaing that only 3 cards are shown
-    if (hero.id < 4) {
+  // randomly determines hero preview
+  // the last hero in the list will never be displayed here
+  // this is due to the requirement that it must be contained
+  const randomInt = () => {
+    return Math.floor(Math.random() * (heroData.length - 3));
+  }
+  const startIndex = randomInt();
+  const endIndex = startIndex + 2;
+  const selectedHeroes = heroData.slice(startIndex, endIndex + 1);
+
+  // map the newly created array of heroes from above to html that can be displayed
+  const heroes = selectedHeroes.map((hero) => {
       return (
         <Card
           key={hero.id}
@@ -21,9 +29,6 @@ function Home() {
           artist={hero.artist}
         />
       );
-    } else {
-      return null;
-    }
   });
   return (
     <div className="home-wrapper">
@@ -60,13 +65,10 @@ function Home() {
         <h2>A Years-Long Project</h2>
         <span>
           Vahora is primarily the work of one person: wd_1142645; however, many
-          of the chracters depicted here are the work of the many people who
-          have played in wd_1142645's setting. Some of them, such as skel101 and
-          rattle_bones, have helped to flesh out some of the continents of
-          Vahora by creating campaigns with the world as a setting. Over the 6
-          years since its first iteration in 2018, Vahora has become not only
-          rich with history, but also with lasting memories of the people who
-          have contributed to that history.
+          of the chracters depicted here are the work of others who have played
+          in wd_1142645's setting. Over the 6 years since its first iteration in
+          2018, Vahora has become not only rich with history, but also with
+          lasting memories of the people who have contributed to that history.
         </span>
       </section>
     </div>
