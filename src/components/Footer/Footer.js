@@ -1,5 +1,5 @@
 import React from "react";
-// import BiLogoDiscord from "react-icons";
+import { FaDiscord } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 
@@ -18,12 +18,11 @@ function Footer() {
         </Link>
       </nav>
       <span>
-        Created by {" "}
-        {/* <br/>
+        Website created by{" "}
         <span className="icon">
-          <BiLogoDiscord />{" "}
-        </span> */}
-        skel101
+          <FaDiscord />
+        </span>{" "}
+        skel101 using React@18
       </span>
     </footer>
   );

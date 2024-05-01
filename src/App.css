@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  overflow-x: hidden;
   margin: 0;
   padding: 0;
   color: var(--font-color-primary);
@@ -30,4 +29,14 @@ a button {
   font-family: "Merriweather";
   text-decoration: none;
   font-size: 20px;
+}
+
+.hero-card {
+  transition: all ease 0.1s;
+}
+
+.hero-card:hover {
+  box-shadow: 0 0 3px 3px var(--font-color-secondary);
+  cursor: pointer;
+  z-index: 1;
 }

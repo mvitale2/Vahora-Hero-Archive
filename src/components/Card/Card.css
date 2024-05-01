@@ -12,11 +12,11 @@
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  transition: all ease 0.3s;
+  transition: all ease 0.1s;
 }
 
 .hero-card:hover {
-  box-shadow: 0 0 6px 6px var(--font-color-secondary);
+  box-shadow: 0 0 3px 3px var(--font-color-secondary);
   cursor: pointer;
   z-index: 1;
 }

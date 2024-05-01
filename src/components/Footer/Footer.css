@@ -17,8 +17,14 @@ footer .nav-link {
   transition: all ease 0.3s;
 }
 
+footer span {
+  display: flex;
+  align-items: center;
+}
+
 footer .icon {
-  font-size: 30px;
+  font-size: 20px;
+  margin: 0 5px;
 }
 
 footer .nav-link:hover {
