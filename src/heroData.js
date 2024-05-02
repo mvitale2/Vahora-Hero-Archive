@@ -19,6 +19,11 @@ import Arbre from "./assets/heroes/arbre.jpg";
 import Steel from "./assets/heroes/steel_dart.png";
 import Hazel from "./assets/heroes/hazel.png";
 import Rook from "./assets/heroes/rook.png";
+import Crimbsy from "./assets/heroes/crimbsy.png";
+import Kellen from "./assets/heroes/kellen.png";
+import Murmur from "./assets/heroes/murmur.png";
+import Papil from "./assets/heroes/papil.png";
+import Qorvo from "./assets/heroes/qorvo.png";
 
 /*
 
@@ -212,6 +217,53 @@ const heroData = [
   },
   {
     id: 18,
+    name: "Crimbsy Crinkledink",
+    archetype: "Paladin",
+    party: "Dust Bandits",
+    image: Crimbsy,
+    description:
+      "A silly Paladin who has forsaken Caldustitia and pines after Fustair's father.",
+    artist: "Rat Hag",
+  },
+  {
+    id: 19,
+    name: "Kellen Van'der'meer",
+    archetype: "Sorcerer",
+    party: "Blood & Fire",
+    image: Kellen,
+    description: "A vampire that cracked open a sphere filled with dead gods.",
+    artist: "April Prime",
+  },
+  {
+    id: 20,
+    name: "Murmur",
+    archetype: "Ranger",
+    party: "String the Quarry",
+    image: Murmur,
+    description:
+      "A soulsewn tabaxi who has the mind of a child. At the end of String the Quarry, a mythal was embedded into him. ",
+    artist: "itsconnel",
+  },
+  {
+    id: 21,
+    name: "Papil",
+    archetype: "Paladin",
+    party: "Spice Girls",
+    image: Papil,
+    description: "An otter in heavy plate armor who cries a lot.",
+    artist: "Gadundra",
+  },
+  {
+    id: 22,
+    name: "Qorvo, the Storm Herald",
+    archetype: "Barbarian/Sorcerer",
+    party: "Dust Bandits",
+    image: Qorvo,
+    description: "Hmm, yes, give me your hat.",
+    artist: "Gadundra",
+  },
+  {
+    id: 23,
     name: "Little Fella",
     archetype: "Bard",
     party: "Down Dead",
