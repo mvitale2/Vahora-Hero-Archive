@@ -58,7 +58,7 @@ const heroData = [
     id: 1,
     name: "Mekial",
     archetype: "Sorcerer",
-    party: "Planes",
+    party: "N/A",
     image: Mekial,
     description:
       "Mekial is an undead sorcerer who has gone utterly insane. He collects necklaces obsessively, and his wanton use of the Wand of Wonder reflects his scattered psyche. ",
@@ -214,6 +214,7 @@ const heroData = [
     party: "Blood & Fire",
     image: Hazel,
     description: "bat man",
+    artist: "itsconnell",
   },
   {
     id: 18,
@@ -266,7 +267,7 @@ const heroData = [
     id: 23,
     name: "Little Fella",
     archetype: "Bard",
-    party: "Down Dead",
+    party: "N/A",
     image: Fella,
     description: "It shall not be remembered.",
     artist: "Unknown",
