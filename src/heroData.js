@@ -24,6 +24,11 @@ import Kellen from "./assets/heroes/kellen.png";
 import Murmur from "./assets/heroes/murmur.png";
 import Papil from "./assets/heroes/papil.png";
 import Qorvo from "./assets/heroes/qorvo.png";
+import Dune from "./assets/heroes/dune.png";
+import Fennell from "./assets/heroes/fennell_capture.PNG";
+import Reed from "./assets/heroes/reed_capture.PNG";
+import Vaalamora from "./assets/heroes/vaalamora_capture.PNG";
+import Ferrum from "./assets/heroes/ferrum.png";
 
 /*
 
@@ -265,6 +270,55 @@ const heroData = [
   },
   {
     id: 23,
+    name: "Dune Do'skryn",
+    archetype: "Barbarian/Sorcerer",
+    party: "Spice Girls",
+    image: Dune,
+    description:
+      "A mystic of sorts who once bested all of the stones in the Doblearan city of Myth Concordia. ",
+    artist: "wd_1142645",
+  },
+  {
+    id: 24,
+    name: "Fennell",
+    archetype: "Fighter",
+    party: "Derelict",
+    image: Fennell,
+    description:
+      "A wild ordenne who throws herself at mach speeds to destroy her enemies.",
+    artist: "wd_1142645",
+  },
+  {
+    id: 25,
+    name: "Reed",
+    archetype: "Warlock",
+    party: "Strange Tidings",
+    image: Reed,
+    description: "Warlock boy",
+    artist: "wd_1142645",
+  },
+  {
+    id: 26,
+    name: "Vaal'amora",
+    archetype: "Bard",
+    party: "All-Adventure",
+    image: Vaalamora,
+    description:
+      "A student that graduated herself from the Academy of All-Adventure after she created various toxins that far exceeded many laws of the floating city of Vallenis.",
+    artist: "wd_1142645",
+  },
+  {
+    id: 27,
+    name: "Ferrum Animo",
+    archetype: "Rogue/Monk",
+    party: "Secrets of the Wellspring",
+    image: Ferrum,
+    description:
+      "A kalashtar with psychic abilities. He was reincarnated as a drow in order to remove the extraplanar entity that inhabited his brain. Afterwards, he became a monk with a more practiced control over his body. ",
+    artist: "skel101",
+  },
+  {
+    id: 28,
     name: "Little Fella",
     archetype: "Bard",
     party: "N/A",

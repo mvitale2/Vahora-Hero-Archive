@@ -14,6 +14,8 @@ function Gallery() {
     }
   });
   parties = [...parties];
+  // Sorts the options alphabetically
+  parties.sort();
   const partyOptions = parties.map((party) => {
     return { value: party.toLowerCase(), label: party };
   });
@@ -118,7 +120,7 @@ function Gallery() {
         {selectedParty === "Down Dead" ? <p>bumbo</p> : null}
         {selectedParty === "Blood & Fire" ? <p>rumblecups</p> : null}
         {selectedParty === "Hell's Horizon"
-          ? "This campaign takes place on the continent of Afastera."
+          ? <p>This campaign takes place on the continent of Afastera.</p>
           : null}
         {selectedParty === "Spice Girls" ? <p>anchor haha</p> : null}
         {selectedParty === "Derelict" ? <p>Where's Onfi?</p> : null}
