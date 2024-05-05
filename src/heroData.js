@@ -271,7 +271,7 @@ const heroData = [
   {
     id: 23,
     name: "Dune Do'skryn",
-    archetype: "Barbarian/Sorcerer",
+    archetype: "Barbarian/Rogue/Sorcerer",
     party: "Spice Girls",
     image: Dune,
     description:
@@ -319,6 +319,53 @@ const heroData = [
   },
   {
     id: 28,
+    name: "Fustair Llyvium",
+    archetype: "Cleric/Fighter",
+    party: "Dust Bandits",
+    description:
+      "A human cleric who served Erraquia and Caldustitia. He helped to retrieve artifacts from ancient temples devoted to both deities. ",
+  },
+  {
+    id: 29,
+    name: "Fujiwara",
+    archetype: "Wizard",
+    party: "Hell's Horizon",
+    description:
+      "A shattered savant that has a gazer familiar. Since his legs no longer function, he has to ride a cloud, giving him the ability to fly. ",
+  },
+  {
+    id: 30,
+    name: "Caladbolg",
+    archetype: "Paladin",
+    party: "Hell's Horizon",
+    description: "This dragonborn paladin.",
+  },
+  {
+    id: 31,
+    name: "Banner",
+    archetype: "Warlock",
+    party: "Hell's Horizon",
+    description:
+      "A slug-like being reincarnated this former commander into a goop person.",
+  },
+  {
+    id: 32,
+    name: "Cherish",
+    archetype: "Bard",
+    party: "String the Quarry",
+    description:
+      "A tiefling who loves money. She became the mayor of Vallenis after the events of String the Quarry, and she is also in possession of a ring of wishes. ",
+  },
+  {
+    id: 33,
+    name: "D-89",
+    archetype: "Gunslinger",
+    party: "Dust Bandits",
+    description:
+      "A warforged who led an uprising in Jakul. It now leads a nation of warforged in the ruins of Jakul. ",
+  },
+  {
+    id: 99,
     name: "Little Fella",
     archetype: "Bard",
     party: "N/A",

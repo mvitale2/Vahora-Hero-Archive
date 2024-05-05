@@ -35,7 +35,6 @@ function About() {
           <li>Campooros</li>
           <li>Creas'ol</li>
           <li>Charkañas</li>
-          <li>Corinstead</li>
           <li>Doblear</li>
           <li>Korinsted</li>
           <li>Polvinagas</li>
