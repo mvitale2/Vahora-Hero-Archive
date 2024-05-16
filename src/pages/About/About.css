@@ -12,7 +12,7 @@
   flex-direction: column;
   gap: 10px;
   align-items: flex-start;
-  width: 40%;
+  width: 60%;
   margin-bottom: 20px;
 }
 
@@ -26,7 +26,7 @@
   justify-content: space-evenly;
   gap: 20px;
   align-items: center;
-  width: 60%;
+  width: 80%;
 }
 
 .about-wrapper .continents-wrapper .continent {
